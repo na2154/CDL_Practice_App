@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CDL Study Hub</title>
+  <meta name="description" content="Virginia Class A CDL study notes, read aloud, with flashcards and quizzes.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand"><span class="sign">CDL</span> <span id="site-title">Study Hub</span></a>
+    <nav>
+      <a href="#/">Plan</a>
+      <a href="#/tests">Tests</a>
+      <a href="#/numbers">Numbers</a>
+      <a href="#/settings">Voice</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <div id="player" class="player hidden" role="region" aria-label="Read aloud controls">
+    <span id="player-status">Reading…</span>
+    <button id="player-toggle" class="btn">Pause</button>
+    <button id="player-stop" class="btn ghost">Stop</button>
+  </div>
+
+  <script src="content.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
