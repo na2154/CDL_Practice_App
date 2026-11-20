@@ -12,7 +12,7 @@ A study website for the Virginia Class A CDL knowledge tests. Notes for 9 units 
 1. On github.com, click **New repository**. Name it `cdl-study`, set it to **Public**, and create it.
 2. Click **uploading an existing file**, drag in all four files above, and click **Commit changes**.
 3. Go to **Settings → Pages**. Under "Build and deployment", set Source to **Deploy from a branch**, Branch to **main** and folder **/ (root)**, then **Save**.
-4. Wait about a minute. The site will be at `https://YOUR-USERNAME.github.io/cdl-study/`.
+4. Wait about a minute. The site will be at `https://na2154.github.io/CDL_Practice_App/#/`.
 
 On a phone, open the link and use "Add to Home Screen" so it opens like an app.
 
